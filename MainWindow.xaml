@@ -1,0 +1,20 @@
+﻿<Window x:Class="导师.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:导师"
+        mc:Ignorable="d"
+        Title="登录" Height="220" Width="350" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Button Content="登录" HorizontalAlignment="Left" Margin="202,140,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Content="注册" HorizontalAlignment="Left" Margin="68,140,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="用户名：" HorizontalAlignment="Left" Margin="72,28,0,0" VerticalAlignment="Top" Height="32" Width="70" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="146,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="130" FontSize="18"/>
+        <Label Content="   密码：" HorizontalAlignment="Left" Margin="72,74,0,0" VerticalAlignment="Top" Height="32" Width="70" FontSize="18"/>
+        <PasswordBox HorizontalAlignment="Left" Height="32" Margin="146,74,0,0"  VerticalAlignment="Top" VerticalContentAlignment="Center" Width="130" FontSize="18"/>
+
+    </Grid>
+</Window>
